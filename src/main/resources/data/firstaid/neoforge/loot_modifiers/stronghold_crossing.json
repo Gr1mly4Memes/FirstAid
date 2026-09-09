@@ -1,0 +1,43 @@
+{
+  "type": "firstaid:chest_loot",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "minecraft:chests/stronghold_crossing"
+    }
+  ],
+  "rolls": {
+    "type": "minecraft:uniform",
+    "min": 0,
+    "max": 1
+  },
+  "entries": [
+    {
+      "item": "firstaid:bandage",
+      "weight": 20,
+      "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 3
+      }
+    },
+    {
+      "item": "firstaid:plaster",
+      "weight": 24,
+      "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 5
+      }
+    },
+    {
+      "item": "firstaid:morphine",
+      "weight": 8,
+      "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+      }
+    }
+  ]
+}

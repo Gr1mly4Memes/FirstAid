@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:string",
+    "minecraft:paper"
+  ],
+  "result": {
+    "id": "firstaid:plaster"
+  }
+}

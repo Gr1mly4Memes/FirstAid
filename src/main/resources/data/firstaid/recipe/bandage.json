@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:string",
+    "minecraft:string",
+    "#minecraft:wool"
+  ],
+  "result": {
+    "id": "firstaid:bandage",
+    "count": 2
+  }
+}
